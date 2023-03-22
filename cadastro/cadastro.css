@@ -1,37 +1,34 @@
-body
-{
+body {
     width: 100%;
     height: 100hv;
     margin: 0px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
     align-items: center;
     align-content: center;
-   
+
 
 }
 
-.cabecalho
-{
+.cabecalho {
     background-color: #ded1f0;
-    color:rgb(245, 245, 245);
+    color: rgb(245, 245, 245);
     width: 100%;
-    height: 50px; 
-   
-    
+    height: 50px;
+
+
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
 
-.D1
-{
+.D1 {
     width: 30%;
     height: 45vh;
     margin-top: 160px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
@@ -41,27 +38,25 @@ body
 
 }
 
-.imagem_cabecalho
-{
+.imagem_cabecalho {
     width: auto;
     height: auto;
     left: 5px;
     right: 20%;
-    max-width:180px;
-    max-height:300px;
+    max-width: 180px;
+    max-height: 300px;
     margin-top: -13px;
 }
 
-.botao_pt 
-{
-   
+.botao_pt {
+
     width: -15%;
     height: 60px;
     color: rgb(5, 5, 5);
-    left: 10px;
+    left: 5px;
     margin-bottom: 20%;
     margin-right: 10px;
-    margin-left: 95%;
+    margin-left: 93%;
     margin-top: -5%;
     font-size: 150%;
 
@@ -69,43 +64,40 @@ body
 
 
 
-.logo 
-{
+.logo {
     width: 100%;
-    height:auto;
+    height: auto;
     top: 0px;
     left: 10px;
     max-width: 180px;
     max-height: 300px;
-  
-    
+
+
 }
 
-.perfil 
-{
+.perfil {
     width: 30%;
     margin-left: 180px;
     margin-bottom: 10%;
-    
- 
-   
+
+
+
 }
 
-.campos 
-{
+.campos {
     width: 50%;
     height: 100px;
     top: 50%;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
     align-content: space-around;
-    
-   
+
+
 }
-.botao
-{
+
+.botao {
     width: 30%;
     height: 60px;
     background-color: rgb(130, 87, 150);
@@ -121,16 +113,14 @@ body
     justify-items: center;
     align-content: center;
     align-items: center;
-    
+
 }
 
-button
-{
-    color:rgb(238, 225, 225);
+button {
+    color: rgb(238, 225, 225);
     background-color: rgb(71, 63, 119);
 }
 
-.botao:hover
-{
-    background-color: rgb(60, 42, 88);     
+.botao:hover {
+    background-color: rgb(60, 42, 88);
 }
