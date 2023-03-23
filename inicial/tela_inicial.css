@@ -8,14 +8,14 @@ body
             justify-items: center;
             align-items: center;
             align-content: center;
-            background-color: rgb(255, 255, 255);
+            background: rgb(53,84,195);
+background: linear-gradient(90deg, rgba(53,84,195,1) 0%, rgba(98,15,176,1) 35%, rgba(101,20,176,1) 71%, rgba(149,32,145,1) 100%);
         }
         .cabecalho
         {
-            background-color: #ded1f0;
-            color:rgb(245, 245, 245);
+           
             width: 202vh;
-            height: 50px; 
+            height: 20px; 
             margin-top: -7px;
             margin-left: 145px;
             padding-top: 20px;
@@ -36,7 +36,6 @@ body
         .livro
         {
             width: 70%;
-            height: 75%;
             left: 95%;
             margin-left: 35%;
             margin-top: 5%;
@@ -46,7 +45,7 @@ body
 
         .frase
         {
-           
+           color: white;
             margin-left: 10%;
             margin-top: -25%;
             max-width:50%;
@@ -83,3 +82,5 @@ body
         {
             background-color: rgb(60, 42, 88);     
         }
+
+        

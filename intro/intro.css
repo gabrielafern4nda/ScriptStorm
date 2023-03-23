@@ -1,5 +1,7 @@
 body {
-    background-color: #f7e2ff;
+    
+    overflow: hidden;
+    
 }
 
 .container {
@@ -11,7 +13,7 @@ body {
     top: 300px;
     left: 650px;
     /*posição */
-    color: #ad7bad;
+    color: #cfb5cf;
     font-size: 3em;
     letter-spacing: 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -54,4 +56,13 @@ body {
         left: 670px;
         top: 250px;
     }
+}
+
+iframe{
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    top:-100px;
+    left:-150px;
+    z-index: -1000;
 }

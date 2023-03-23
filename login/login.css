@@ -13,7 +13,7 @@ body {
 
 }
 
-.box {
+.box { /*deixa os campos centralizados*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@ header {
     padding: 10px 0 10px 0;
 }
 
-.input-field .input {
+.input-field .input {  /*estilização dos campos*/
     height: 45px;
     width: 87%;
     border: none;
@@ -63,41 +63,37 @@ i {
     color: #fff;
 }
 
-::-webkit-input-placeholder {
+::-webkit-input-placeholder { /*deixa a cor branca das letras*/
     color: #fff;
 }
 
-.submit {
-    border: none;
-    border-radius: 30px;
-    font-size: 15px;
-    height: 45px;
-    outline: none;
-    width: 100%;
-    color: black;
-    background: rgba(255, 255, 255, 0.7);
-    cursor: pointer;
-    transition: .3s;
-}
+
 
 .submit:hover {
     box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
 }
 
-.two-col {
+label a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bnt-link { /*estilização botão login*/
+    text-decoration: none;
+    width: 95%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: black;
+}
+
+.registro {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: #fff;
     font-size: small;
     margin-top: 10px;
-}
-
-.one {
-    display: flex;
-}
-
-label a {
-    text-decoration: none;
-    color: #fff;
 }
