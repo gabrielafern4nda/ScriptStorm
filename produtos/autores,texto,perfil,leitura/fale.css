@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
 *{
   font-family: 'Poppins', sans-serif;
   margin:0; padding:0;
@@ -50,35 +52,17 @@
 }
 
 .container form .row .col .inputBox input{
-  width: 100%;
-  border:1px solid #ccc;
-  padding:10px 15px;
-  font-size: 15px;
-  text-transform: none;
-}
+    width: 205%;
+    border:1px solid #ccc;
+    padding:13px 20px;
+    font-size: 15px;
+    text-transform: none;
+  }
 
-.container form .row .col .inputBox input:focus{
-  border:1px solid #000;
-}
-
-.container form .row .col .flex{
-  display: flex;
-  gap:15px;
-}
-
-.container form .row .col .flex .inputBox{
-  margin-top: 5px;
-}
-
-.container form .row .col .inputBox img{
-  height: 34px;
-  margin-top: 5px;
-  filter: drop-shadow(0 0 1px #000);
-}
 
 .bnt-link{
   width: 100%;
-  padding:0.4rem 18rem;
+  padding:0.4rem 19rem;
   font-size: 17px;
   background: #652192;
   color:rgb(255, 255, 255);
