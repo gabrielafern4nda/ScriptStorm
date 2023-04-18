@@ -29,7 +29,7 @@ body {
 
 }
 
-span {
+span { /*titulo do cadastro*/
     color: #fff;
     font-size: small;
     display: flex;
@@ -57,7 +57,7 @@ header {
     outline: none;
 }
 
-i {
+i { /*estilização dos icones*/
     position: relative;
     top: -33px;
     left: 17px;
@@ -69,12 +69,7 @@ i {
 }
 
 
-
-.submit:hover {
-    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
-}
-
-label a {
+label a {  /*estilização "não tem cadastro?"*/
     text-decoration: none;
     color: #fff;
 }
