@@ -106,7 +106,7 @@ section {
 }
 
 /* estilo para o botão de compra */
-.produto button {
+.link_botao {
     background-color: #aa6cc4;
     border: none;
     color: white;

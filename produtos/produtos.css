@@ -29,7 +29,7 @@ body {
 
 .cabecalho ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     margin-left: 50px;
 }
@@ -138,7 +138,7 @@ section {
 }
 
 /* estilo para o botão de compra */
-.produto button {
+.link_botao {
     background-color: #62378d;
     border: none;
     color: white;
