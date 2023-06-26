@@ -5,14 +5,12 @@
 
 :root {
   --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png");
-  --trono-img: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/trono-preto.png"); 
 }
 
 .dark-mode {
   --bg-cor: black;
   --fonte-cor: #ffffff;
   --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
-  --trono-img: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/trono-branco.png");
 }
 
 body {
@@ -22,8 +20,6 @@ body {
   transition: 1s;
   user-select: none;
 }
-
-
 
 .mudar-tema {
   position: absolute;
