@@ -1,10 +1,11 @@
 body {
-    overflow: hidden;
+    overflow: hidden;  
 }
 .text {
     position: absolute;
     top: 300px;
     left: 650px;
+    /*posição */
     color: #cfb5cf;
     font-size: 3em;
     letter-spacing: 2px;
@@ -31,14 +32,6 @@ body {
     }
 }
 
-.logo {
-    position: absolute;
-    top: 260px;
-    left: 0px;
-    width: 250px;
-    animation: anima_logo 3s forwards;
-}
-
 .banner {
     width: 100%;
     height: 100vh;
@@ -47,11 +40,10 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-.banner video {
+  .banner video {
     position: fixed;
     top: 0;
     left: 0;
     object-fit: cover;
     width: 100%;
-}
+  }

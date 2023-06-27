@@ -29,6 +29,8 @@ body {
     position: relative;
 }
 
+
+/*edição texto do menu*/
 .cabecalho ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -36,6 +38,7 @@ body {
     margin-left: 50px;
 }
 
+/*edição manu linha*/
 .cabecalho ul li::after {
     content: '';
     height: 3px;
@@ -47,6 +50,7 @@ body {
     transition: 0.5s;
 }
 
+/*animação linha menu*/
 .cabecalho ul li:hover::after {
     width: 90px;
     left: 30%;
@@ -81,10 +85,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.D1 {
-    margin-top: 10%;
-    height: 50%;
-}
+
 
 /* estilo para a seção de produtos */
 section {

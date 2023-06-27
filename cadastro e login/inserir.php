@@ -10,5 +10,5 @@
     $resultado = $comando->execute();
 
     // Para voltar no formulário:
-    header("Location: login.html");
+    header("Location: cadastro.html");
 ?>

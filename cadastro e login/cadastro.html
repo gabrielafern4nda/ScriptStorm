@@ -21,10 +21,10 @@
       <div class="form-container sign-in-container">
         <form action="inserir.php" method="post">
           <h1>Cadastro</h1>
-          <input name= "nome" type="text" placeholder="Nome" />
-          <input name="cpf" type="tel" placeholder="Cpf" />
-          <input name="email" type="email" placeholder="Email" />
-          <input name="senha" type="password" placeholder="Senha" />
+          <input name= "nome" type="text" placeholder="nome" />
+          <input name="cpf" type="tel" placeholder="cpf" />
+          <input name="email" type="email" placeholder="email" />
+          <input name="senha" type="password" placeholder="senha" />
             <button type="submit">
               Cadastrar!
       </button>
@@ -52,17 +52,19 @@
 
     <script>
         const signUpButton = document.getElementById('signUp');
-          const signInButton = document.getElementById('signIn');
-          const container = document.getElementById('container');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
 
-          signUpButton.addEventListener('click', () => {
-            container.classList.add('right-panel-active');
-          });
+signUpButton.addEventListener('click', () => {
+  container.classList.add('right-panel-active');
+});
 
-          signInButton.addEventListener('click', () => {
-            container.classList.remove('right-panel-active');
-          });
+signInButton.addEventListener('click', () => {
+  container.classList.remove('right-panel-active');
+});
+
 </script>
 
+    </script>
   </body>
 </html>
