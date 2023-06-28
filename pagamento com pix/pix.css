@@ -87,8 +87,8 @@ body {
     border: 1px solid #ccc;
   }
   
-  button[type="submit"] {
-      background-color: #62378d;
+  button {
+    background-color: #62378d;
     color: white;
     padding: 0.5rem;
     border: none;
@@ -96,8 +96,12 @@ body {
     cursor: pointer;
     transition: background-color 0.2s ease;
   }
+
+  a:link{
+    text-decoration: none;
+  }
   
-  button[type="submit"]:hover {
+  button:hover {
     background-color: #a871b6;
   }
   
